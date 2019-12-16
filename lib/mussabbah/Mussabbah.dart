@@ -34,11 +34,12 @@ class _MussabbahState extends State<Mussabbah> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'The Title Here',
       theme: ThemeData(primarySwatch: Colors.teal),
       home: Scaffold(
         appBar: AppBar(
-          title: Text("الباقيات الصالحات"),
+          title: Jomlah("الباقيات الصالحات", color: Colors.lime,),
         ),
         body: Container(
           decoration: BoxDecoration(
